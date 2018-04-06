@@ -19,7 +19,7 @@ var zodiac = [
 		rulingplanet: "Mars",
 		companions: "",
 		elemental: "Fire",
-		image: "img/aries.jpg"
+		image: "img/aries.jpg",
 		dates: ""
 	},
 	{
@@ -30,7 +30,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/cancer.jpg"
+		image: "img/cancer.jpg",
 		dates: ""
 	},
 	{
@@ -41,7 +41,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/capricornMARDELRUBIO.jpg"
+		image: "img/capricornMARDELRUBIO.jpg",
 		dates: ""
 	},
 	{
@@ -52,7 +52,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/gemini.jpg"
+		image: "img/gemini.jpg",
 		dates: ""
 	},
 	{
@@ -63,7 +63,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/leo.jpg"
+		image: "img/leo.jpg",
 		dates: ""
 	},
 	{
@@ -74,7 +74,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/libra2.jpg"
+		image: "img/libra2.jpg",
 		dates: ""
 	},
 	{
@@ -85,7 +85,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/pisces2.jpg"
+		image: "img/pisces2.jpg",
 		dates: ""
 	},
 	{
@@ -96,7 +96,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/sagitarius1.jpg"
+		image: "img/sagitarius1.jpg",
 		dates: ""
 	},
 	{
@@ -107,7 +107,7 @@ var zodiac = [
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/scorpio.jpg"
+		image: "img/scorpio.jpg",
 		dates: ""
 	},
 	{
@@ -118,29 +118,36 @@ var zodiac = [
 		rulingplanet: "Venus",
 		companions: "",
 		elemental: "",
-		image: "img/taurus2.png"
+		image: "img/taurus2.png",
 		dates: ""
 	},
 	{
 		image1: "img/virgo2.jpg",
 		sign: "virgo",
-		obstacles:
+		obstacles: "",
 		fortune: "",
 		rulingplanet: "",
 		companions: "",
 		elemental: "",
-		image: "img/virgo.jpg"
+		image: "img/virgo.jpg",
 		dates: ""
 	}
 ];
 //should run through zodiac array
-function horoscope() {
+function horoscope(yourHoroscope) {
 	// store the tag with id="sign" in var userdata
-	var userdata = document.getElementById("userdata");
-
+ 	userdata = document.getElementById("userdata");
+ 		console.log(userdata);
+		console.log("users value is: " + userdata.value);
 // function to determine user horoscope
-	var userdata = document.getElementById("yourSign");
+	//userdata = document.getElementById("yourSign");
 
+
+	//userdata = document.getElementById("yourHoroscope");
+
+		//console.log("users value lowercase is: " + userdata.value.toLowerCase());
+		// check the current item's sign in the zodiac array
+		//console.log("current zodiac sign in loop is: " + zodiac[i].sign);
 	// loop through 
 	for(var i = 0; i < zodiac.length; i = i + 1) {
 

@@ -18,4 +18,10 @@ img{
 	border-radius:550px;
 	border:2px solid black;
 }
+
+button{
+	width:200px;
+	height:50px;
+	font-size: 26px;
+}
 /**"https://media.istockphoto.com/photos/zodiac-signs-on-a-gradient-sky-background-picture-id495274791?k=6&m=495274791&s=612x612&w=0&h=uKbG0qMFRTvPNdK193bObyemgObc1akUrMzhDxiRwXk=");
