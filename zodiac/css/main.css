@@ -4,6 +4,8 @@ body {
 	font-size: 28px;
 	display:block;
 	margin:0 auto;
+	color:white;
+	
 
 }
 html{
@@ -11,6 +13,7 @@ html{
 	background-repeat:cover;
 	width:100%;
 	height:100%;
+
 }
 
 img{
@@ -24,4 +27,5 @@ button{
 	height:50px;
 	font-size: 26px;
 }
-/**"https://media.istockphoto.com/photos/zodiac-signs-on-a-gradient-sky-background-picture-id495274791?k=6&m=495274791&s=612x612&w=0&h=uKbG0qMFRTvPNdK193bObyemgObc1akUrMzhDxiRwXk=");
+
+
